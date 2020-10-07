@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.ico" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-right" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#shoe">Shoes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bag">Bags</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide background" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Mega LCD TV For Sports</h1>
+                        <p>This is very amazing tv. Which do nothing but waste our time. If you wanna waste your time with this nonsense than Buy Now!</p>
+                        <h2 class="price">$1200</h2>
+                        <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Ultra Headphone</h1>
+                        <p>Sound quality is very good and you ear can bleed if you hear with too loud volume.So if you want to lose your ear than Buy Now!</p>
+                        <h2 class="price">$800</h2>
+                        <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>XBOX 5</h1>
+                        <p>Amazing gaming quality Just to waste your time. Wanna fuck your tine than you should play games in it.So if you want to lose career than Buy Now!</p>
+                        <h2 class="price">$900</h2>
+                        <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="container categories">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="watch d-flex justify-content-between align-items-center">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bag d-flex justify-content-between align-items-center">
+                    <h1>Bag</h1>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="shoe d-flex justify-content-between align-items-center">
+                    <h1>Shoes</h1>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container shoes" id="shoe">
+        <h1 style="text-align: center; margin-bottom: 60px;">Shoes</h1>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bata</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                  <h3>$150</h3>
+                <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Adidas</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                  <h3>$210</h3>
+                <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                    <h3>$120</h3>
+                    <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container bags" id="bag">
+        <h1 style="text-align: center; margin-bottom: 60px;">Bags</h1>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Steps</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                  <h3>$450</h3>
+                <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Apex</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                  <h3>$310</h3>
+                <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lotto</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                    <h3>$220</h3>
+                    <a class="buy-now-button" style="text-decoration: none;" href="">Buy Now</a>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 60px;">Stay Connected with Us!</h1>
+        <div class="background d-flex flex-column justify-content-center align-items-center" id="subscribe">
+            <div style="text-align: center;">
+                <h2>LET'S STAY IN TOUCH!</h2>
+                <p>Get reguler update on special offer and more!</p>
+                <input class="form-control" style="margin-bottom: 20px;" type="text" placeholder="Enter Your Email">
+                <a class="buy-now-button" style="text-decoration: none;" href="">Subscribe</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <small>©Panda Commerce. All Right Reserved. Mahmudul Hasan 2020.</small>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
